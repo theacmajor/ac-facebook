@@ -49,6 +49,12 @@ input{
 input[type=email]{
     margin-top: 20px;
 }
+input:focus::-webkit-input-placeholder{
+    color: #0000003b;    
+}
+input:focus{
+    outline: rgba(0, 0, 0, 0.349);
+}
 .btn{
     padding: 10px 0 10px 0;
     border: none;
